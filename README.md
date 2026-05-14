@@ -31,7 +31,7 @@ git clone https://github.com/428937/Simple_Portfolio_Optimizer.git
 cd Simple_Portfolio_Optimizer
 ```
 
-2. Install Dependencies
+### 2. Install Dependencies
 
 It's highly recommended to use a virtual environment.
 
@@ -48,7 +48,7 @@ It's highly recommended to use a virtual environment.
   pip install -r requirements.txt
   ```
 
-3. Run the Optimizer
+### 3. Run the Optimizer
 
 ```bash
 python main.py
@@ -59,16 +59,21 @@ python main.py
 When you run the script, it will output the optimization progress and the final result.
 
 ```
-Initial score: 1.2045
-Iteration 0: Score = 1.2045
-Iteration 1000: Score = 1.304
+Initial score: 0.205
+Iteration 0: Score = 0.205
+Iteration 1000: Score = 0.6967
+Iteration 2000: Score = 1.1099
 ...
-Iteration 16000: Score = 1.414
+Iteration 15000: Score = 1.1099
+Iteration 16000: Score = 1.1099
 
-Best portfolio weights: [0.27 0.08 0.45 0.12 0.08]
-Total return: 0.1185
-Total risk: 0.0838
-Return/Risk ratio: 1.414
+
+Best portfolio weights: [0.    0.979 0.021 0.    0.   ]
+Total return: 0.1777
+Total risk: 0.1802
+Return/Risk ratio: 0.9861
+
+[Program finished]
 ```
 
 ## Customization
