@@ -59,19 +59,16 @@ python main.py
 When you run the script, it will output the optimization progress and the final result.
 
 ```
-Initial score: 0.205
-Iteration 0: Score = 0.205
-Iteration 1000: Score = 0.6967
-Iteration 2000: Score = 1.1099
+Initial score: 1.2045
+Iteration 0: Score = 1.2045
+Iteration 1000: Score = 1.304
 ...
-Iteration 15000: Score = 1.1099
-Iteration 16000: Score = 1.1099
+Iteration 16000: Score = 1.414
 
-
-Best portfolio weights: [0.    0.979 0.021 0.    0.   ]
-Total return: 0.1777
-Total risk: 0.1802
-Return/Risk ratio: 0.9861
+Best portfolio weights: [0.27 0.08 0.45 0.12 0.08]
+Total return: 0.1185
+Total risk: 0.0838
+Return/Risk ratio: 1.414
 
 [Program finished]
 ```
