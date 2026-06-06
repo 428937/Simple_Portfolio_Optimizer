@@ -4,7 +4,7 @@ A beginner-friendly FinTech project demonstrating portfolio optimization using o
 This small Python project demonstrates portfolio optimization using a local search algorithm to maximize the return-to-risk ratio. It generates random covariance matrices (RCM) to simulate asset relationships and iteratively adjusts portfolio weights through small perturbations with occasional random exploration.
 
 
-### How It Works
+## How It Works
 
 The algorithm explores the portfolio weight space by making small, controlled changes and accepting better allocations:
 
