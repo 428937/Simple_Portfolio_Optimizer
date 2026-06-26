@@ -26,7 +26,7 @@ def small_change(weights):
     new = np.clip(new, 0, 1)
     return new / np.sum(new)
 
-#5 stocks example with RCMss
+#5 stocks example with RCMs
 num_assets = 5
 returns = np.array([0.11, 0.18, 0.07, 0.13, 0.15])
 covariance = np.random.rand(num_assets, num_assets)
