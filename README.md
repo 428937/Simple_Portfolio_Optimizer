@@ -18,7 +18,7 @@ The algorithm explores the portfolio weight space by making small, controlled ch
    - Occasionally (`random.random() < 0.007`), a worse portfolio is accepted to help the search escape local optima (simulated annealing behavior).
 5. **Repeat:** This process continues for a set number of iterations (`17,000`), gradually refining the portfolio weights.
 
-### Project Structure
+## Project Structure
 
 The entire project logic is contained in a single Python file, keeping it simple and easy to understand.
 
