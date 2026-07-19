@@ -16,7 +16,7 @@ The algorithm explores the portfolio weight space by making small, controlled ch
 4. **Selection:**
    - If the new portfolio's score is higher than the current best, it is accepted.
    - Occasionally (`random.random() < 0.007`), a worse portfolio is accepted to help the search escape local optima (simulated annealing behavior).
-5. **Repeat:** This process continues for a set number of iterations (`17,000`), gradually refining the portfolio weights.
+5. **Repeat:** This process continues for a set number of iterations (17,000), gradually refining the portfolio weights.
 
 ## Project Structure
 
